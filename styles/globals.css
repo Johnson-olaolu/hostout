@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: #F5F7F7;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -13,4 +14,461 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+/*------Navigation bar starts here-----*/
+.nav-bar {
+  background: #FFFFFF;
+height: 70px;
+width: 100%;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+box-shadow: 0px 1px 2px 0px #E5E5E5;
+margin-top: 0;
+position: fixed;
+width: 100%;
+z-index: 99999999;
+
+
+
+}
+.nav-input {
+  box-sizing: border-box;
+  position:absolute;
+  left:21.4%;
+  right: 55.74%;
+  top: 21.25%;
+  bottom: 21.25%;
+  height: 46px;
+  width: auto;
+  left: 291px;
+  top: 17px;
+  border-radius: 25px;
+  border: 0.5px solid #DDDDDD;
+  box-shadow: 0px 2px 4px 0px #E5E5E5;
+  align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.ul-li {
+  list-style: none;
+  background-color: ;
+  overflow: hidden ;
+  top: 21.25%;
+  bottom: 21.25%;
+  margin-top: 5px;
+}
+.ul-li li {
+  float:right ;
+ 
+}
+
+.ul-li li a {
+  display:  block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.ul-li li a:hover {
+ 
+}
+.nav-btn {
+  height: 45px;
+width: 159px;
+left: 976px;
+top: 17px;
+border-radius: 30px;
+padding: 13px, 27px, 13px, 27px;
+background: #131034;
+color: white;
+margin-left :100px;
+margin-right: 60px;
+margin-top: 10px;
+}
+.nav-img{
+  background: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px 50px 5px 10px;
+}
+.nav-option{
+  margin-top: 10px;
+}
+/*------Navigation bar ends here -------*/
+
+/*-------Home page header starts here -------*/
+.flexbox-container{
+  padding-top: 70px;
+ 
+  margin: 0;
+  background-color: #F5F7F7;
+  display: flex;
+}
+
+.flexbox-1{
+  height: 300px;
+  width: 50%;
+  background-color: #F5F7F7;
+  display: ;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 20px 100px 20px;
+}
+.flexbox-1 h1{
+  font-size: 50px;
+}
+.flexbox-1 p{
+  margin: 50px 0;
+  color: #00BED1;
+}
+
+.hp-btn {
+  margin: 20px;
+}
+.flexbox-1 span {
+  color: #00BED1;
+}
+.flexbox-1-btn{
+  padding: 10px 15px;
+  background: #131034;
+  border-radius: 20px;
+  margin:  20px;
+  color: white;
+}
+.flexbox-1-btn:hover{
+  background: #00BED1;
+}
+.flexbox-1-btn2{
+  padding: 10px 15px;
+  background: #00BED1;
+  border-radius: 20px;
+  margin:  20px;
+  color: white;
+}
+.flexbox-1-btn2:hover{
+  background: #131034;
+}
+.flexbox-2{
+  height: 500px;
+  width: 50%;
+  background-image: url('../public/header 2.PNG');
+}
+.flexbox-item{
+  margin: px;
+}
+
+/*-------Homepage header ends here -------*/
+
+/*-------Card -------*/
+
+.about1{
+  padding-top: 25px;
+  background: #FFFFFF;
+}
+.card-container{
+  display: flex;
+  margin-bottom: 50px;
+  background: #FFFFFF;
+}
+#card-head{
+  margin: 20px;
+  height: 40px;
+  width:auto;
+  background:#F5F7F7;
+  margin-right: 60px;
+  border-radius: 80px;
+  padding-top:8px ;
+  text-align: center;
+}
+#card-head h2{
+  text-align: center;
+}
+.card{
+  height: 400px;
+  width: 290px;
+  left: 0px;
+  top: 0px;
+  border-radius: 40px;
+  border: 1px solid #CCCCCC;
+  margin: 20px;
+  
+}
+.card-image{
+  height: 182px;
+  width: 264px;
+  margin: 12px;
+  border-radius: 30px;
+  background-image: url('../public/happy-woman-in-nature-at-sunset.jpg');
+}
+.card-title{
+text-align:  center;
+margin-top: 15px;
+margin-bottom: 10px;
+}
+
+.card-details{
+text-align: center;
+margin-bottom: 15px;
+}
+.card-price{
+  margin-top: 8px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.card p{
+  color: #00BED1;
+}
+.card-price p {
+  margin: 5px;
+}
+
+
+/*--------card end-------*/
+
+/*-------Tags start-------*/
+.container-tag{
+display: flex;
+justify-content: center;
+}
+.tag {
+  
+  padding: 6px 15px;
+  background: #00BED133;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+.tag p{
+  color: black;
+}
+/*---------Tags end --------*/
+
+/*---------How to host --------*/
+#how-to-host{
+  height: 560px;
+  width: 100%;
+  background-image: url('../public/Capture.PNG');
+}
+
+/*---------How to host end --------*/
+
+/*---------Attend --------*/
+#how-to-attend{
+  margin-top: 10px;
+  height: 560px;
+  width: 100%;
+ background-image: url('../public/image 2.PNG'); 
+}
+/*---------Attend end --------*/
+
+/*------About start----*/
+
+.about-container{
+  margin-bottom: 100px;
+  display: flex;
+  background-color: #F5F7F7;
+  
+ 
+}
+#about-h2{
+  margin: 20px;
+  height: 40px;
+  width:auto;
+  background:#FFFFFF;
+  margin-right: 60px;
+  border-radius: 80px;
+  padding-top:8px ;
+}
+#about-h2 h2 {
+  text-align: center;
+}
+
+.about-card{
+  height: 395px;
+  width: 360px;
+  background: #FFFFFF;
+ border-radius: 45px;
+ margin: 20px ;
+
+}
+.about-img{
+ height: 100px;
+ width: 100px;
+ border-radius: 50%;
+ background: black;
+ margin-top: 50px;
+ margin-left: 30px;
+ margin-bottom: 25px;
+
+}
+.about-title {
+ 
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 15px;
+  justify-items: center;
+  
+}
+
+.about-title h2{
+  text-decoration: underline blue 8px;
+}
+
+.about-details{
+  text-align: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+ color: #999999;
+
+}
+
+/*------About end----*/
+
+/*-------Experience ------*/
+.experience-card {
+  height: 294px;
+width: 300px;
+left: 180px;
+top: 4602px;
+border-radius: 45px;
+
+background: #FFFFFF;
+margin: 30px 30px;
+
+}
+.ex-top {
+padding: 10px 0px 10px 0px;
+  border-bottom: 0.5px solid #CCCCCC;
+  margin-left:20px;
+  margin-right: 20px;
+}
+.ex-img{
+height: 60px;
+width: 60px;
+border-radius: 50%;
+background: black;
+margin: 10px 5px 10px 5px;
+}
+.ex-name{
+  color: #000000DE;
+
+}
+.ex-icons{
+
+}
+.ex-detail{
+  color: #999999;
+  margin: 5px 10px 15px 10px;
+
+}
+.ex-detail h3{
+  margin: 8px 0px 5px opx;
+}
+
+
+/*-------Experience  end------*/
+
+/*------ Footer start-----*/
+.footer-container{
+  display: flex;
+  background: #131034;
+  color: white;
+  bottom: 0;
+ 
+}
+.foot{
+  margin: 90px;
+  text-align: center;
+}
+.foot h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.foot li{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  
+}
+.footer-container ul{
+  list-style-type: none;
+}
+.footer-btn{
+  background: #00BED1;
+  padding: 10px 18px;
+  color: white;
+  height: 46px;
+width: 230px;
+left: 0px;
+top: 0px;
+border-radius: 30px;
+}
+
+.footer-btn li {
+  margin-top: 30px;
+}
+.get-updates input{
+  border: 0.5px solid #DDDDDD;
+  height: 46px;
+width: 230px;
+left: 1025px;
+top: 253px;
+border-radius: 25px;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+
+.footer-btn2{
+  background: #00BED1;
+  margin-top: 30px;
+  color: white;
+  height: 46px;
+width: 253px;
+left: 0px;
+top: 0px;
+border-radius: 30px;
+padding: 15px 90px;
+}
+.last-footer{
+  display: flex;
+  padding: 20px;
+  background-color: #131034;
+  border-top: #00BED1 1px solid;
+  color: white;
+  margin-bottom: 0;
+  bottom: 0;
+  font-weight: 400;font-size: 14px;
+}
+.copyright{
+  margin-left: 40px;
+
+}
+.address{
+  margin-right: 40px;
+  margin-left: 600px;
+  float: right;
+}
+
+footer-con{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  clear: both;
+  margin-bottom: -200px;
+ 
+}
+.app{
+  margin: 0;
+  margin-bottom: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+/*------ Footer end-----*/
