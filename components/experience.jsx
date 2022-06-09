@@ -8,10 +8,10 @@ function Experience (){
        <div className='ex-top'>
        <div className='ex-img'>
            <Image 
-               src='/public/Capture.PNG'
+               src="/avatar.jpeg"
                alt=' weeee'
-               height='200px'
-               width='200px'
+               height={60}
+               width={60}
            />
        </div>
         <div className='ex-name'><h3>Gabriel Afolayan</h3></div>
