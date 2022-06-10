@@ -1,5 +1,8 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
+import Document from 'next/document';
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "../components/Cards";
 import Nav from "../components/NavBar"
 import HomeHead from "../components/Homepage-Header";
@@ -24,6 +27,7 @@ function App() {
        <Card />
        <Card />
       </div>
+    
     </div>
       <HowToHost />
       <HowToAttend />

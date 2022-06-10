@@ -1,6 +1,11 @@
 import   NextPage  from 'next';
 import Tag from './Tag';
 import Image from 'next/image'
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from '@fortawesome/free-regular-svg-icons';
+
+
 
 function Card (){
     return(
@@ -17,6 +22,7 @@ function Card (){
                </div>
              <div className='card-title'>
                <h2> chilling with wizkid</h2>
+               <FontAwesomeIcon icon={faClock} />
                </div>
             <div className="card-details"> <p>you forget to look at your phone</p>
             </div>

@@ -1,17 +1,21 @@
 import NextPage from "next";
 import Image from "next/image";
+import { faHome, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from '@fortawesome/free-regular-svg-icons';
+
+
+
 
 function NavBar() {
   return (
     <div className="nav-bar">
-      <form>
-        <input
-          className="nav-input"
-          type="text"
-          placeholder="     Search events "
-        ></input>
-      </form>
-
+      <div className="nav-form">
+        <input  placeholder="Search events"/>
+      <div className="nav-search"><a href="#"><FontAwesomeIcon icon={faSearch} /></a></div>
+        
+      </div>
+     
       <ul className="ul-li">
         <li>
           <div className="nav-img">
