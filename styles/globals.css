@@ -121,6 +121,9 @@ margin-top: 10px;
 .nav-option{
   margin-top: 10px;
 }
+#angle-down {
+  margin-left: -38px;
+}
 /*------Navigation bar ends here -------*/
 
 /*-------Home page header starts here -------*/
@@ -247,6 +250,7 @@ text-align: center;
 margin-bottom: 15px;
 }
 .card-price{
+  display: flex;
   margin-top: 8px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -254,8 +258,12 @@ margin-bottom: 15px;
 .card p{
   color: #00BED1;
 }
-.card-price p {
+.card-price h2 {
+  margin-right: 140px;
+}
+#from {
   margin: 5px;
+  color: black;
 }
 
 

@@ -1,6 +1,6 @@
 import NextPage from "next";
 import Image from "next/image";
-import { faHome, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faBell, faBellConcierge, faHome, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 
@@ -13,15 +13,16 @@ function NavBar() {
       <div className="nav-form">
         <input  placeholder="Search events"/>
       <div className="nav-search"><a href="#"><FontAwesomeIcon icon={faSearch} /></a></div>
-        
       </div>
      
       <ul className="ul-li">
+      <li id="angle-down"><a><FontAwesomeIcon icon={faAngleDown} /></a></li>
         <li>
           <div className="nav-img">
             <Image src="/avatar.jpeg" width={50} height={50} />
           </div>
         </li>
+        <li><a><FontAwesomeIcon icon={faBell} /></a></li>
         <li>
           <a href="#" className="nav-btn">
             Host an Event

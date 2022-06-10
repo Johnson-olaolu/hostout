@@ -28,11 +28,12 @@ function Card (){
             </div>
             
             <Tag />
+            <p id='from'>From:</p>
 
              <div className='card-price'>
-                 <p>From:</p>
+                 
                  <h2>₦3000</h2>
-            
+            <a><FontAwesomeIcon icon={faClock} /></a>
              </div>
            </div>
            
