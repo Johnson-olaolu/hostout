@@ -519,8 +519,17 @@ footer-con{
 
 /*-----Homepage and componets end here------*/
 /*------ Menu start-----*/
+.menu-display {
+  height: 100px;
+  margin-top: 80px;
+}
+.menu-display h2 {
+  padding-top: 50px;
+  padding-left: 20px;
+  font-size: 35px;
+}
 #menu {
-  margin:80px 20px 0px 20px;
+  margin:0px 20px 0px 20px;
   display: flex;
   
 }
@@ -559,3 +568,64 @@ footer-con{
   font-weight: 500;
 }
 /*------ Load more end-----*/
+
+/*------ past events cards start-----*/
+.past-card{
+  height: 700px;
+width: 600px;
+border-radius: 36px;
+border: 1px solid #CCCCCC;
+margin: 50px 20px;
+
+}
+.past-img {
+  width: 560px;
+  height: 250px;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 30px;
+  border: 1px solid #030101;
+
+}
+#past-reviews{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.past-title{
+  display: flex;
+  margin: 20px;
+}
+.past-title h2 {
+  margin-right: 250px;
+}
+.past-detail {
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+}
+.past-tag{
+  display: flex;
+  margin: 20px;
+}
+.past-price {
+  margin-left: 20px;
+}
+.past-imgs {
+  display: flex;
+  margin: 20px;
+}
+.past-imgs-p{
+ margin: 10px 0px -10px 10px;
+ font-size: 15px;
+}
+.past-image {
+  margin: 0 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 100px;
+  border: #030101 1px solid;
+}
+
+/*------ past events cards end-----*/

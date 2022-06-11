@@ -5,11 +5,16 @@ import Card from "../components/Cards";
 import Nav from "../components/NavBar"
 import Experience from "../components/experience";
 import Footer from "../components/Footer";
+import Past from '../components/PastCards';
+
 
 function EventPage (){
     return (
         <div>
         <Nav />
+        <div className='menu-display'>
+        <h2>All</h2>
+        </div>
         <div id='menu'>
             <ul>
                 <li><a href='#'>All</a></li>
@@ -53,10 +58,8 @@ function EventPage (){
         <div className='load-more'>
             <a>Load More</a>
         </div>
-
-
-
-
+        
+<Past />
 <Experience />
 <Footer/>
         </div>

@@ -5,8 +5,11 @@ import EventsPage from './EventsPage'
 
 function App() {
   return (
-  // <Homepage />
+  //<Homepage />
 <EventsPage />
+
+
+
   );
 }
 
