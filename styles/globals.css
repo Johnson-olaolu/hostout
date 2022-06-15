@@ -629,3 +629,191 @@ margin: 50px 20px;
 }
 
 /*------ past events cards end-----*/
+
+/*------ events forms -----*/
+.form-input{
+  margin: 100px 20px 20px 20px;
+ font-size: 16px;
+ font-weight: 400;
+ color: #757575;
+}
+.form-event-title {
+  display: block;
+
+}
+.form-event-title input{
+height: 40px;
+width: 70%;
+border-radius: 5px;
+border: 0.1px solid #999999;
+margin: 10px 0 10px 0;
+outline: none;
+}
+.input-container{
+  display: flex;
+}
+.form-event-category{
+  margin: 0px 40px 10px 0;
+}
+.form-event-category select{
+  margin-top: 10px;
+ height: 40px ;
+ width: 200px;
+ border-radius: 5px;
+ outline: none;
+ border: 0.1px solid #999999;
+}
+.form-event-price  input{
+  height: 40px;
+width: 500px;
+border-radius: 5px;
+border: 0.1px solid #999999;
+margin: 10px 0 10px 0;
+outline: none;
+}
+.form-event-description textarea{
+height: 100px;
+width: 1000px;
+border-radius: 5px;
+border: 0.1px solid #999999;
+margin: 10px 0 10px 0;
+outline: none;
+}
+
+.person-container-info{
+
+}
+.person-name-info{
+  padding: 0 0 60px 0;
+}
+
+.person-name-info input {
+  height: 40px;
+width: 500px;
+border-radius: 5px;
+border: 0.1px solid #999999;
+margin: 10px 0 10px 0;
+outline: none;
+}
+.person-name-info button {
+  height: 40px;
+  width: 100px;
+  border-radius: 25px;
+  background: #131034;
+  color: white;
+  border: none;
+  margin-left: 40px;
+}
+#persons-container{
+  display: flex;
+  padding: 20px;
+}
+#persons-container input {
+  margin-right: 20px;
+}
+#persons-container span {
+  margin-right: 100px;
+}
+.input-food-menu  input{
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  border: 0.1px solid #999999;
+  margin: 10px 0 10px 0;
+  outline: none;
+  margin: 10px 20px 10px 0;
+}
+.input-food-menu select{
+  margin-top: 10px;
+  height: 40px ;
+  width: 200px;
+  border-radius: 5px;
+  outline: none;
+  border: 0.1px solid #999999;
+}
+
+.input-food-menu span {
+  margin: 0 20px 0 20px;
+}
+.input-food-menu button {
+  height: 40px;
+  width: 100px;
+  border-radius: 25px;
+  background: #131034;
+  color: white;
+  border: none;
+  margin-left: 40px;
+}
+.input-food-menu {
+  padding-bottom: 60px;
+}
+
+
+
+
+
+.input-act-menu  input{
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  border: 0.1px solid #999999;
+  margin: 10px 0 10px 0;
+  outline: none;
+  margin: 10px 20px 10px 0;
+}
+.input-act-menu select{
+  margin-top: 10px;
+  height: 40px ;
+  width: 200px;
+  border-radius: 5px;
+  outline: none;
+  border: 0.1px solid #999999;
+}
+
+.input-act-menu span {
+  margin: 0 20px 0 20px;
+}
+.input-act-menu button {
+  height: 40px;
+  width: 100px;
+  border-radius: 25px;
+  background: #131034;
+  color: white;
+  border: none;
+  margin-left: 40px;
+}
+.input-act-menu {
+  padding-bottom: 60px;
+}
+
+.event-location-description textarea {
+  height: 100px;
+width: 1000px;
+border-radius: 5px;
+border: 0.1px solid #999999;
+margin: 10px 0 10px 0;
+outline: none;
+}
+.input-events-image input {
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  border: 0.1px solid #999999;
+  margin: 10px 0 10px 0;
+  outline: none;
+  margin: 10px 20px 10px 0;
+}
+.input-event-button{
+  height: 40px;
+  width: 150px;
+  border-radius: 25px;
+  background: #131034;
+  color: white;
+  border: none;
+}
+#input-event-btn{
+ display: flex;
+ justify-content: center;
+ padding: 60px 0 60px 0;
+}
+/*------event forms end-----*/
