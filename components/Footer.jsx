@@ -1,4 +1,8 @@
 import   NextPage  from 'next';
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from '@fortawesome/free-regular-svg-icons';
+import { faFacebook, faInstagram, faLinkedin, faTiktok, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 function Footer (){
 
@@ -20,11 +24,11 @@ function Footer (){
         <div className='follow-us foot'>
         <h3>Follow Us</h3>
             <ul>
-                <li><a href='#'>Facebook</a></li>
-                <li><a href='#'>Twitter</a></li>
-                <li><a href='#'>Instagram</a></li>
-                <li><a href='#'>Linkedin</a></li>
-                <li><a href='#'>Tik Tok</a></li>
+                <li><a href='#'><FontAwesomeIcon icon={faFacebook} /> Facebook</a></li>
+                <li><a href='#'><FontAwesomeIcon icon={faTwitter} /> Twitter</a></li>
+                <li><a href='#'><FontAwesomeIcon icon={faInstagram} /> Instagram</a></li>
+                <li><a href='#'><FontAwesomeIcon icon={faLinkedin} /> Linkedin</a></li>
+                <li><a href='#'><FontAwesomeIcon icon={faTiktok} /> Tik Tok</a></li>
             </ul>
         </div>
 
@@ -43,7 +47,7 @@ function Footer (){
         <h3>Get Updates </h3>
             
                 <p>Subscribe to our new letter ad get updated about future events and activities</p>
-                <input type="text" placeholder="input email"></input>
+                <input type="text" placeholder="Your Email Address"></input>
                 <form type='submit'>
                 <a href='#' className='footer-btn2'>Submit</a>
 

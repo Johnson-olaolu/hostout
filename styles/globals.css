@@ -426,17 +426,20 @@ margin: 10px 5px 10px 5px;
   bottom: 0;
  
 }
+/*-------changed margin to padding -----*/
 .foot{
-  margin: 90px;
+  padding: 80px;
   text-align: center;
+  
 }
 .foot h3{
   font-size: 24px;
   margin-bottom: 20px;
 }
+/*-------changed margin to padding -----*/
 .foot li{
-  margin-top: 10px;
-  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
   font-size: 14px;
   
 }
@@ -490,13 +493,15 @@ padding: 15px 90px;
   bottom: 0;
   font-weight: 400;font-size: 14px;
 }
+/*-------changed margin to padding -----*/
 .copyright{
-  margin-left: 40px;
+  padding-left: 40px;
 
 }
+/*-------changed margin to padding -----*/
 .address{
-  margin-right: 40px;
-  margin-left: 600px;
+  padding-right: 40px;
+  padding-left: 600px;
   float: right;
 }
 
