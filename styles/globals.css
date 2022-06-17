@@ -637,7 +637,7 @@ margin: 50px 20px;
 
 /*------ events forms -----*/
 .form-input{
-  margin: 100px 20px 20px 20px;
+  margin: 100px 20px 20px 100px;
  font-size: 16px;
  font-weight: 400;
  color: #757575;
@@ -1047,7 +1047,7 @@ margin-top: 10px;
   font-size: small;
   padding-top: 10px;
   color: #999999;
-
+  margin-bottom: 30px;
 }
 .About-top{
   display:  flex;
@@ -1058,10 +1058,58 @@ margin-top: 10px;
   background: #030101;
   border-radius: 50%;
 }
-.About-title {
+.About-title1 {
   margin-top: 18px;
   margin-left: 5px;
   color:#999999 ;
+}
+.About-title1 ::after{
+  content: " ";
+ height: 5px;
+ width: 26px;
+ background: #7B61FF;
+ display:block;
+ margin: 30px 10px 10px 10px;
+}
+
+.About-title2 {
+  margin-top: 18px;
+  margin-left: 5px;
+  color:#999999 ;
+}
+.About-title2 ::after{
+  content: " ";
+ height: 5px;
+ width: 26px;
+ background: #FFBF60;
+ display:block;
+ margin: 30px 10px 10px 10px;
+}
+.About-title3 {
+  margin-top: 18px;
+  margin-left: 5px;
+  color:#999999 ;
+}
+.About-title3 ::after{
+  content: " ";
+ height: 5px;
+ width: 26px;
+ background: #7B61FF;
+ display:block;
+ margin: 30px 10px 10px 10px;
+}
+.About-title4 {
+  margin-top: 18px;
+  margin-left: 5px;
+  color:#999999 ;
+}
+.About-title4 ::after{
+  content: " ";
+ height: 5px;
+ width: 26px;
+ background: #D14B00;
+ display:block;
+ margin: 30px 10px 10px 10px;
 }
 
 .About-Food-menu{
@@ -1099,12 +1147,74 @@ margin-top: 10px;
 .About-host-details{
   height: 60px;
   width: 140px;
-  background: pink;
+  background: #F5F7F7;
   margin: auto;
   border-radius: 40px;
   text-align: center;
+  color: #C4C4C4;
+
 }
 .About-host-details p {
   padding-top: 5px;
 }
 /*-------About section end -------*/
+
+
+/*-------About input-picture-------*/
+.input-picture-container{
+  display: flex;
+  padding: 20px 60px 40px 60px;
+  align-items: center;
+  justify-items: center;
+}
+
+.input-picture{
+  height: 250px;
+  width: 250px;
+  border-radius: 40px;
+  overflow: hidden;
+  margin: 20px;
+  border: yellow 3px solid;
+}
+/*-------About input-picture end -------*/
+
+/*-------About form -------*/
+.events-container-alert{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.events-alert{
+  color: #FF0000;
+  width: 600px;
+  height: 88px;
+  background: #FFE5E5;
+  border-radius: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.events-alert p {
+ padding: 30px;
+}
+.events-total-pay{
+  display: flex;
+  margin-left: 50px;
+  
+}
+.events-total-amount{
+  height: 40px;
+  width: 250px;
+  border: 0.1px solid #999999;
+  margin-left: 15px;
+  display: flex;
+}
+.events-total-amount p{
+  padding: 10px 80px 10px 10px;
+  font-weight: 600;
+}
+#Amount{
+  color: #131034;
+  font-size: 20px;
+  padding: 10px 80px 10px 10px;
+}
+/*-------About form -------*/

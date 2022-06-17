@@ -8,6 +8,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Footer from "../components/Footer";
 import Experience from "../components/experience";
+import Picture from "../components/Pictures";
 import Image from "next/image";
 
 function EventsView() {
@@ -89,7 +90,7 @@ function EventsView() {
         <div className="About-description about-1st">
           < div className="About-top">
             <div className="About-image"></div>
-            <div className="About-title">
+            <div className="About-title1">
               <h3>Description</h3>
             </div>
           </div>
@@ -107,7 +108,7 @@ function EventsView() {
         <div className="About-Food-menu about-1st">
        <div className="About-top">
        <div className="About-image"></div>
-        <div className="About-title">
+        <div className="About-title2">
               <h3>Description</h3>
             </div>
        </div>
@@ -140,7 +141,7 @@ function EventsView() {
         <div className="About-description about-1st">
           < div className="About-top">
             <div className="About-image"></div>
-            <div className="About-title">
+            <div className="About-title3">
               <h3>Description</h3>
             </div>
           </div>
@@ -158,7 +159,7 @@ function EventsView() {
         <div className="About-Food-menu about-1st">
        <div className="About-top">
        <div className="About-image"></div>
-        <div className="About-title">
+        <div className="About-title4">
               <h3>Description</h3>
             </div>
        </div>
@@ -175,8 +176,100 @@ function EventsView() {
           </div>
         </div>
 </div>
-      
+{/*-----events section end-----*/}
+<div id="About-event">
+        <h2>Pictures </h2>
+      </div>
+      <div className="input-picture-container">
+        
+      <Picture />
+      <Picture />
+      <Picture />
+      <Picture />
+      </div>
 
+      <div id="About-event">
+        <h2>Register </h2>
+      </div>
+
+     <div className="events-container-alert">
+     <div className="events-alert">
+      <p>Note that a sum of ₦1200 will be charged as registration fee and this will cover for the event hosting fee and a cup of Parfait.</p>
+      </div>
+     </div>
+
+     <div className="form-input">
+     <form action=''>
+        <div className='form-event-title'>
+        <h3>Full name here *</h3>
+        <input type='text'  placeholder='Enter Full name here *'/>
+        </div>
+        <div className='persons-input-info'>
+          <h3>How many of you are coming?</h3>
+          <div id='persons-container'>
+          <input type="radio" name="persons" value="" /> <span>I’m coming Alone</span>
+          <input type="radio" name="persons" value="" />  <span>No, I’m booking for a friend</span>
+          <input type="radio" name="persons" value="" />  <span> No, We are</span>
+          </div>
+        </div>
+        <div>
+          <h3> You would love to take something, what’ is that? (optional)</h3>
+          <div className='input-act-menu'>
+          <input type="text" placeholder="Select menu"/> 
+          <select id="act-items">
+          <option value="">per  go / quantity </option>
+           <option value="">CODM</option>
+           <option value="">DEFCON</option>
+           <option value="">Dancing </option>
+           </select> 
+             <span>Amount</span>
+               <input type="text" placeholder="enter price"/>
+                <button >Add</button>
+
+          </div>
+        </div>
+        <div>
+          <h3>Not just food, choose Games&activities and have fun (optional)</h3>
+          <div className='input-act-menu'>
+          <input type="text" placeholder="select  activity here"/> 
+          <select id="act-items">
+          <option value="">per  go / quantity </option>
+           <option value="">CODM</option>
+           <option value="">DEFCON</option>
+           <option value="">Dancing </option>
+           </select> 
+             <span>Amount</span>
+               <input type="text" placeholder="enter price"/>
+                <button >Add</button>
+
+          </div>
+        </div>
+
+        <div className='persons-input-info'>
+          <h3>Updating you about the event is important, how do you want to get update?</h3>
+          <div id='persons-container'>
+          <input type="radio" name="persons" value="" /> <span>Email Address</span>
+          <input type="radio" name="persons" value="" />  <span>Phone number</span>
+          <input type="radio" name="persons" value="" />  <span> Both</span>
+          </div>
+        </div>
+
+        <div className='event-location-description'>
+          <h3>That’s not all, you may want to ask the host for a special request *</h3>
+          <textarea rows="5"  type='text' placeholder='Enter your description here'/>
+        </div>
+        <div className="events-total-pay">
+          <span>Total</span>
+          <div className="events-total-amount">
+            <p>Amount(₦)</p>
+            <p id="Amount">1000</p>
+          </div>
+        </div>
+        <div id='input-event-btn'>
+        <button className='input-event-button' >Proceed to Payments</button>
+        </div>
+      </form>  
+     </div>
       <Experience />
       <Footer />
     </div>
