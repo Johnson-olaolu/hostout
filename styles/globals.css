@@ -201,6 +201,8 @@ margin-top: 10px;
   display: flex;
   margin-bottom: 50px;
   background: #FFFFFF;
+  justify-content: center;
+  align-items: center;
 }
 #card-head{
   margin: 20px;
@@ -1218,3 +1220,36 @@ margin-top: 10px;
   padding: 10px 80px 10px 10px;
 }
 /*-------About form -------*/
+
+/*-------Related events start -------*/
+
+.related-cards{
+  height: 340px;
+  width: 280px;
+  border: 1px solid #CCCCCC;
+  border-radius: 40px;
+  overflow: hidden;
+ margin: 40px 20px 20px 20px;
+}
+.related-img{
+  width: 280px;
+  height: 256px;
+  background: bisque;
+}
+.related-title{
+  text-align: center;
+  margin: 10px 0;
+  color: #333333;
+
+}
+.related-details{
+  text-align: center;
+  color: #333333;
+
+}
+
+.related-details span {
+  font-weight: 500;
+  color: #030101;
+}
+/*-------Related events end -------*/

@@ -2,6 +2,7 @@ import Document from "next/document";
 import {
   faAngleRight,
   faBell,
+  faClock,
   faHome,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
@@ -9,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Footer from "../components/Footer";
 import Experience from "../components/experience";
 import Picture from "../components/Pictures";
+import RelatedPictures from "../components/RelatedPictures";
 import Image from "next/image";
 
 function EventsView() {
@@ -270,6 +272,18 @@ function EventsView() {
         </div>
       </form>  
      </div>
+     <div id="About-event">
+        <h2>Related Hangouts </h2>
+      </div>
+     <div className=" card-container">
+    <RelatedPictures />
+    <RelatedPictures />
+    <RelatedPictures />
+    <RelatedPictures />
+     </div>
+     <div id="About-event">
+        <h2>Peoples Experience </h2>
+      </div>
       <Experience />
       <Footer />
     </div>
